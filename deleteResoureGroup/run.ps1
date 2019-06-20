@@ -4,4 +4,4 @@ param($Timer)
 
 # Get-AzResourceGroup -Name test123 | Remove-AzResourceGroup -Force -AsJob
 
-Get-AzVm
+Get-AzResourceGroup -Name nepeters007
