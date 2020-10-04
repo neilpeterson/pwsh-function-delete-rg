@@ -2,6 +2,8 @@ param($Timer)
 
 # $ErrorActionPreference = 'stop'
 
-# Get-AzResourceGroup -Name test123 | Remove-AzResourceGroup -Force -AsJob
+write-output "--------------------------"
+Get-AzContext
+write-output "--------------------------"
 
 Get-AzResourceGroup -Name nepeters007 | Remove-AzResourceGroup -Force
