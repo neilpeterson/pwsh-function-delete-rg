@@ -2,6 +2,8 @@ param($Timer)
 
 # $ErrorActionPreference = 'stop'
 
+Connect-AzAccount -Identity
+
 write-output "--------------------------"
 Get-AzContext
 write-output "--------------------------"
